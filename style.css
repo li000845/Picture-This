@@ -18,6 +18,7 @@ body {
 .title {
   padding: 50px 25px;
   text-align: center;
+  width: 100%;
 }
 
 h1 {
@@ -37,11 +38,16 @@ img {
 
 @media (min-width: 960px) {
   .header {
-    text-align: left;
     flex-direction: row;
   }
-  img {
+
+  .title {
+    text-align: left;
     width: 50%;
+  }
+
+  .img {
+    width: auto;
     max-width: 50%;
     height: auto;
   }
