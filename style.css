@@ -42,13 +42,12 @@ img {
   }
 
   .title {
-    text-align: left;
+    text-align: center;
     width: 50%;
   }
 
   .img {
-    width: auto;
-    max-width: 50%;
+    width: 50%;
     height: auto;
   }
 }
