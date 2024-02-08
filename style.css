@@ -37,10 +37,11 @@ img {
 
 @media (min-width: 960px) {
   .header {
+    text-align: left;
     flex-direction: row;
   }
   img {
-    width: auto;
+    width: 50%;
     max-width: 50%;
     height: auto;
   }
