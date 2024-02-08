@@ -15,18 +15,13 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <picture>
-      <source media="(min-width: 960px)" srcset="
-      https://li000845.blob.core.windows.net/week4/week4/image-960960.png 1x,
-      https://li000845.blob.core.windows.net/week4/week4/image-12801280.png 2x,
-      https://li000845.blob.core.windows.net/week4/week4/image-16001600.png 3x">
-      <source media="(max-width: 959px)" srcset="
-      https://li000845.blob.core.windows.net/week4/week4/image-320180.png 320w,
-      https://li000845.blob.core.windows.net/week4/week4/image-480270.png 480w,
-      https://li000845.blob.core.windows.net/week4/week4/image-720405.png 720w,
-      https://li000845.blob.core.windows.net/week4/week4/image-960540.png 960w">
-     <img src="https://li000845.blob.core.windows.net/week4/week4/week4/museum.jpg" alt="placeholder">
-    </picture>
+    <img src="images/museum.jpg"
+         scrcset="images/image-320180.png 320w,
+                  images/image-480270.png 480w,
+                  images/image-720405.ong 720w,
+                  images/image-960540.png 960w"
+         sizes="(max-width: 959px) 100vw, 50vw"    
+         alt="placeholder">
   </header>
 </body>
 
